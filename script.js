@@ -1,3 +1,6 @@
+
+// Get lyrics button click
+// Event listener
 const searchButton = document.getElementById('searchButton');
 searchButton.addEventListener("click", function(){
     const songName = document.getElementById('songName').value;
@@ -45,4 +48,5 @@ ${data.lyrics}
             showLyrics.innerHTML = songLyrics;
         }
     })
+
 }
